@@ -10,9 +10,9 @@ export default class App extends Component {
                 {/* This should only show up on /about/foo, /about/bar, or /about/foo/bar */}
                 <Switch>
                     <Route exact path='/' component={AboutMenu} />
-                    <Route exact path='about/foo' component={AboutMenu} />
-                    <Route exact path='about/bar' component={AboutMenu} />
-                    <Route exact path='about/foo/bar' component={AboutMenu} />  
+                    <Route exact path='/about/foo' component={AboutMenu} />
+                    <Route exact path='/about/bar' component={AboutMenu} />
+                    <Route exact path='/about/foo/bar' component={AboutMenu} />  
                 </Switch>    
                 {/* <AboutMenu /> */}
             </div>
